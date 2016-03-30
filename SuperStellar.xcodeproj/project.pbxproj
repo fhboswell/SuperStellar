@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		945D2D0F1CAA49C900013964 /* FireParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 945D2D0E1CAA49C900013964 /* FireParticles.sks */; };
+		945D2D111CAA49D100013964 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 945D2D101CAA49D100013964 /* spark.png */; };
+		945D2D131CAA568A00013964 /* BadGuyLesser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945D2D121CAA568A00013964 /* BadGuyLesser.swift */; };
+		94C7634A1CAA20750054A964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C763491CAA20750054A964 /* AppDelegate.swift */; };
+		94C7634C1CAA20750054A964 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 94C7634B1CAA20750054A964 /* GameScene.sks */; };
+		94C7634E1CAA20750054A964 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7634D1CAA20750054A964 /* GameScene.swift */; };
+		94C763501CAA20750054A964 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7634F1CAA20750054A964 /* GameViewController.swift */; };
+		94C763531CAA20750054A964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C763511CAA20750054A964 /* Main.storyboard */; };
+		94C763551CAA20750054A964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C763541CAA20750054A964 /* Assets.xcassets */; };
+		94C763581CAA20750054A964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C763561CAA20750054A964 /* LaunchScreen.storyboard */; };
+		94C763631CAA20750054A964 /* SuperStellarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C763621CAA20750054A964 /* SuperStellarTests.swift */; };
+		94C7636E1CAA20750054A964 /* SuperStellarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7636D1CAA20750054A964 /* SuperStellarUITests.swift */; };
+		94C7637C1CAA21360054A964 /* IntroScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 94C7637B1CAA21360054A964 /* IntroScene.sks */; };
+		94C763801CAA21990054A964 /* IntroScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7637F1CAA21990054A964 /* IntroScene.swift */; };
+		94C763821CAA22A30054A964 /* BMgermar.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 94C763811CAA22A30054A964 /* BMgermar.TTF */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94C7635F1CAA20750054A964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C7633E1CAA20750054A964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C763451CAA20750054A964;
+			remoteInfo = SuperStellar;
+		};
+		94C7636A1CAA20750054A964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C7633E1CAA20750054A964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C763451CAA20750054A964;
+			remoteInfo = SuperStellar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		945D2D0E1CAA49C900013964 /* FireParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticles.sks; sourceTree = "<group>"; };
+		945D2D101CAA49D100013964 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		945D2D121CAA568A00013964 /* BadGuyLesser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadGuyLesser.swift; sourceTree = "<group>"; };
+		94C763461CAA20750054A964 /* SuperStellar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperStellar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C763491CAA20750054A964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94C7634B1CAA20750054A964 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		94C7634D1CAA20750054A964 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		94C7634F1CAA20750054A964 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		94C763521CAA20750054A964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94C763541CAA20750054A964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94C763571CAA20750054A964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94C763591CAA20750054A964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C7635E1CAA20750054A964 /* SuperStellarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperStellarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C763621CAA20750054A964 /* SuperStellarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperStellarTests.swift; sourceTree = "<group>"; };
+		94C763641CAA20750054A964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C763691CAA20750054A964 /* SuperStellarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperStellarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C7636D1CAA20750054A964 /* SuperStellarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperStellarUITests.swift; sourceTree = "<group>"; };
+		94C7636F1CAA20750054A964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C7637B1CAA21360054A964 /* IntroScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = IntroScene.sks; sourceTree = "<group>"; };
+		94C7637F1CAA21990054A964 /* IntroScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroScene.swift; sourceTree = "<group>"; };
+		94C763811CAA22A30054A964 /* BMgermar.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMgermar.TTF; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94C763431CAA20750054A964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C7635B1CAA20750054A964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C763661CAA20750054A964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94C7633D1CAA20750054A964 = {
+			isa = PBXGroup;
+			children = (
+				94C763481CAA20750054A964 /* SuperStellar */,
+				94C763611CAA20750054A964 /* SuperStellarTests */,
+				94C7636C1CAA20750054A964 /* SuperStellarUITests */,
+				94C763471CAA20750054A964 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94C763471CAA20750054A964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94C763461CAA20750054A964 /* SuperStellar.app */,
+				94C7635E1CAA20750054A964 /* SuperStellarTests.xctest */,
+				94C763691CAA20750054A964 /* SuperStellarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94C763481CAA20750054A964 /* SuperStellar */ = {
+			isa = PBXGroup;
+			children = (
+				94C763491CAA20750054A964 /* AppDelegate.swift */,
+				94C7634B1CAA20750054A964 /* GameScene.sks */,
+				94C7634D1CAA20750054A964 /* GameScene.swift */,
+				94C7637B1CAA21360054A964 /* IntroScene.sks */,
+				94C7637F1CAA21990054A964 /* IntroScene.swift */,
+				945D2D121CAA568A00013964 /* BadGuyLesser.swift */,
+				94C7634F1CAA20750054A964 /* GameViewController.swift */,
+				945D2D0E1CAA49C900013964 /* FireParticles.sks */,
+				945D2D101CAA49D100013964 /* spark.png */,
+				94C763511CAA20750054A964 /* Main.storyboard */,
+				94C763541CAA20750054A964 /* Assets.xcassets */,
+				94C763561CAA20750054A964 /* LaunchScreen.storyboard */,
+				94C763831CAA237E0054A964 /* SupportingFiles */,
+				94C763591CAA20750054A964 /* Info.plist */,
+			);
+			path = SuperStellar;
+			sourceTree = "<group>";
+		};
+		94C763611CAA20750054A964 /* SuperStellarTests */ = {
+			isa = PBXGroup;
+			children = (
+				94C763621CAA20750054A964 /* SuperStellarTests.swift */,
+				94C763641CAA20750054A964 /* Info.plist */,
+			);
+			path = SuperStellarTests;
+			sourceTree = "<group>";
+		};
+		94C7636C1CAA20750054A964 /* SuperStellarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94C7636D1CAA20750054A964 /* SuperStellarUITests.swift */,
+				94C7636F1CAA20750054A964 /* Info.plist */,
+			);
+			path = SuperStellarUITests;
+			sourceTree = "<group>";
+		};
+		94C763831CAA237E0054A964 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				94C763811CAA22A30054A964 /* BMgermar.TTF */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94C763451CAA20750054A964 /* SuperStellar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C763721CAA20750054A964 /* Build configuration list for PBXNativeTarget "SuperStellar" */;
+			buildPhases = (
+				94C763421CAA20750054A964 /* Sources */,
+				94C763431CAA20750054A964 /* Frameworks */,
+				94C763441CAA20750054A964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperStellar;
+			productName = SuperStellar;
+			productReference = 94C763461CAA20750054A964 /* SuperStellar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94C7635D1CAA20750054A964 /* SuperStellarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C763751CAA20750054A964 /* Build configuration list for PBXNativeTarget "SuperStellarTests" */;
+			buildPhases = (
+				94C7635A1CAA20750054A964 /* Sources */,
+				94C7635B1CAA20750054A964 /* Frameworks */,
+				94C7635C1CAA20750054A964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94C763601CAA20750054A964 /* PBXTargetDependency */,
+			);
+			name = SuperStellarTests;
+			productName = SuperStellarTests;
+			productReference = 94C7635E1CAA20750054A964 /* SuperStellarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94C763681CAA20750054A964 /* SuperStellarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C763781CAA20750054A964 /* Build configuration list for PBXNativeTarget "SuperStellarUITests" */;
+			buildPhases = (
+				94C763651CAA20750054A964 /* Sources */,
+				94C763661CAA20750054A964 /* Frameworks */,
+				94C763671CAA20750054A964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94C7636B1CAA20750054A964 /* PBXTargetDependency */,
+			);
+			name = SuperStellarUITests;
+			productName = SuperStellarUITests;
+			productReference = 94C763691CAA20750054A964 /* SuperStellarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94C7633E1CAA20750054A964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Henry Boswell";
+				TargetAttributes = {
+					94C763451CAA20750054A964 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					94C7635D1CAA20750054A964 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 94C763451CAA20750054A964;
+					};
+					94C763681CAA20750054A964 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 94C763451CAA20750054A964;
+					};
+				};
+			};
+			buildConfigurationList = 94C763411CAA20750054A964 /* Build configuration list for PBXProject "SuperStellar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94C7633D1CAA20750054A964;
+			productRefGroup = 94C763471CAA20750054A964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94C763451CAA20750054A964 /* SuperStellar */,
+				94C7635D1CAA20750054A964 /* SuperStellarTests */,
+				94C763681CAA20750054A964 /* SuperStellarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94C763441CAA20750054A964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C7634C1CAA20750054A964 /* GameScene.sks in Resources */,
+				94C763581CAA20750054A964 /* LaunchScreen.storyboard in Resources */,
+				94C763551CAA20750054A964 /* Assets.xcassets in Resources */,
+				94C763531CAA20750054A964 /* Main.storyboard in Resources */,
+				94C7637C1CAA21360054A964 /* IntroScene.sks in Resources */,
+				945D2D111CAA49D100013964 /* spark.png in Resources */,
+				94C763821CAA22A30054A964 /* BMgermar.TTF in Resources */,
+				945D2D0F1CAA49C900013964 /* FireParticles.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C7635C1CAA20750054A964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C763671CAA20750054A964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94C763421CAA20750054A964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C7634E1CAA20750054A964 /* GameScene.swift in Sources */,
+				94C763801CAA21990054A964 /* IntroScene.swift in Sources */,
+				94C763501CAA20750054A964 /* GameViewController.swift in Sources */,
+				945D2D131CAA568A00013964 /* BadGuyLesser.swift in Sources */,
+				94C7634A1CAA20750054A964 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C7635A1CAA20750054A964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C763631CAA20750054A964 /* SuperStellarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C763651CAA20750054A964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C7636E1CAA20750054A964 /* SuperStellarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94C763601CAA20750054A964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94C763451CAA20750054A964 /* SuperStellar */;
+			targetProxy = 94C7635F1CAA20750054A964 /* PBXContainerItemProxy */;
+		};
+		94C7636B1CAA20750054A964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94C763451CAA20750054A964 /* SuperStellar */;
+			targetProxy = 94C7636A1CAA20750054A964 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94C763511CAA20750054A964 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C763521CAA20750054A964 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94C763561CAA20750054A964 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C763571CAA20750054A964 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94C763701CAA20750054A964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94C763711CAA20750054A964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94C763731CAA20750054A964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperStellar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = henry.boswell.2016.SuperStellar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94C763741CAA20750054A964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperStellar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = henry.boswell.2016.SuperStellar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94C763761CAA20750054A964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SuperStellarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = henry.boswell.2016.SuperStellarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperStellar.app/SuperStellar";
+			};
+			name = Debug;
+		};
+		94C763771CAA20750054A964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperStellarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = henry.boswell.2016.SuperStellarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperStellar.app/SuperStellar";
+			};
+			name = Release;
+		};
+		94C763791CAA20750054A964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SuperStellarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = henry.boswell.2016.SuperStellarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperStellar;
+			};
+			name = Debug;
+		};
+		94C7637A1CAA20750054A964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperStellarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = henry.boswell.2016.SuperStellarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperStellar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94C763411CAA20750054A964 /* Build configuration list for PBXProject "SuperStellar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C763701CAA20750054A964 /* Debug */,
+				94C763711CAA20750054A964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C763721CAA20750054A964 /* Build configuration list for PBXNativeTarget "SuperStellar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C763731CAA20750054A964 /* Debug */,
+				94C763741CAA20750054A964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C763751CAA20750054A964 /* Build configuration list for PBXNativeTarget "SuperStellarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C763761CAA20750054A964 /* Debug */,
+				94C763771CAA20750054A964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C763781CAA20750054A964 /* Build configuration list for PBXNativeTarget "SuperStellarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C763791CAA20750054A964 /* Debug */,
+				94C7637A1CAA20750054A964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94C7633E1CAA20750054A964 /* Project object */;
+}
